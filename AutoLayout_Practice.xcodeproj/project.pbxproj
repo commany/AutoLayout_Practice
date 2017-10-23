@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151A36411F9DD38200642B3D /* AutoLayoutLandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151A36401F9DD38200642B3D /* AutoLayoutLandscapeViewController.swift */; };
 		151CC3DC1F9C71C7001825B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CC3DB1F9C71C7001825B7 /* AppDelegate.swift */; };
 		151CC3DE1F9C71C7001825B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CC3DD1F9C71C7001825B7 /* ViewController.swift */; };
 		151CC3E11F9C71C7001825B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151CC3DF1F9C71C7001825B7 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151A36401F9DD38200642B3D /* AutoLayoutLandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutLandscapeViewController.swift; sourceTree = "<group>"; };
 		151CC3D81F9C71C7001825B7 /* AutoLayout_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		151CC3DB1F9C71C7001825B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		151CC3DD1F9C71C7001825B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		151A363F1F9DD2F200642B3D /* Auto Layout Programmatically Ex.2 */ = {
+			isa = PBXGroup;
+			children = (
+				151A36401F9DD38200642B3D /* AutoLayoutLandscapeViewController.swift */,
+			);
+			path = "Auto Layout Programmatically Ex.2";
+			sourceTree = "<group>";
+		};
 		151CC3CF1F9C71C7001825B7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +64,23 @@
 		151CC3DA1F9C71C7001825B7 /* AutoLayout_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				151CC3ED1F9C7207001825B7 /* Auto Layout Programmatically Ex.1 */,
+				151A363F1F9DD2F200642B3D /* Auto Layout Programmatically Ex.2 */,
 				151CC3DB1F9C71C7001825B7 /* AppDelegate.swift */,
-				151CC3DD1F9C71C7001825B7 /* ViewController.swift */,
 				151CC3DF1F9C71C7001825B7 /* Main.storyboard */,
 				151CC3E21F9C71C7001825B7 /* Assets.xcassets */,
 				151CC3E41F9C71C7001825B7 /* LaunchScreen.storyboard */,
 				151CC3E71F9C71C7001825B7 /* Info.plist */,
 			);
 			path = AutoLayout_Practice;
+			sourceTree = "<group>";
+		};
+		151CC3ED1F9C7207001825B7 /* Auto Layout Programmatically Ex.1 */ = {
+			isa = PBXGroup;
+			children = (
+				151CC3DD1F9C71C7001825B7 /* ViewController.swift */,
+			);
+			path = "Auto Layout Programmatically Ex.1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151A36411F9DD38200642B3D /* AutoLayoutLandscapeViewController.swift in Sources */,
 				151CC3DE1F9C71C7001825B7 /* ViewController.swift in Sources */,
 				151CC3DC1F9C71C7001825B7 /* AppDelegate.swift in Sources */,
 			);
