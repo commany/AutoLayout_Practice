@@ -103,6 +103,7 @@ class AutoLayoutLandscapeViewController: UIViewController {
 		setupLayout()
 	}
 	
+	
 	fileprivate func setupBottomControls() {
 		let bottomControlsStackView = UIStackView(arrangedSubviews: [
 			previousButton, pageControl, nextButton
@@ -112,14 +113,17 @@ class AutoLayoutLandscapeViewController: UIViewController {
 		bottomControlsStackView.translatesAutoresizingMaskIntoConstraints = false
 		
 		self.view.addSubview(bottomControlsStackView)
-
+		
+		
 		NSLayoutConstraint.activate([
 			bottomControlsStackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
 			bottomControlsStackView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
 			bottomControlsStackView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
 			bottomControlsStackView.heightAnchor.constraint(equalToConstant: 50)
 			])
+
 	}
+
 	
 	func setupLayout() {
 		// -------------------------------------------
@@ -146,5 +150,5 @@ class AutoLayoutLandscapeViewController: UIViewController {
 		descriptionTextView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 24).isActive = true
 		descriptionTextView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -24).isActive = true
 		descriptionTextView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
-	}
+	}	
 }

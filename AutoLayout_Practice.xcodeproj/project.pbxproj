@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150311711FA325F9008ADC1F /* SafeAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150311701FA325F9008ADC1F /* SafeAreaViewController.swift */; };
 		151A36411F9DD38200642B3D /* AutoLayoutLandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151A36401F9DD38200642B3D /* AutoLayoutLandscapeViewController.swift */; };
 		151CC3DC1F9C71C7001825B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CC3DB1F9C71C7001825B7 /* AppDelegate.swift */; };
 		151CC3DE1F9C71C7001825B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CC3DD1F9C71C7001825B7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		150311701FA325F9008ADC1F /* SafeAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaViewController.swift; sourceTree = "<group>"; };
 		151A36401F9DD38200642B3D /* AutoLayoutLandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutLandscapeViewController.swift; sourceTree = "<group>"; };
 		151CC3D81F9C71C7001825B7 /* AutoLayout_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		151CC3DB1F9C71C7001825B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1503116F1FA325DC008ADC1F /* Auto Layout Safe Area */ = {
+			isa = PBXGroup;
+			children = (
+				150311701FA325F9008ADC1F /* SafeAreaViewController.swift */,
+			);
+			path = "Auto Layout Safe Area";
+			sourceTree = "<group>";
+		};
 		151A363F1F9DD2F200642B3D /* Auto Layout Programmatically Ex.2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 			children = (
 				151CC3ED1F9C7207001825B7 /* Auto Layout Programmatically Ex.1 */,
 				151A363F1F9DD2F200642B3D /* Auto Layout Programmatically Ex.2 */,
+				1503116F1FA325DC008ADC1F /* Auto Layout Safe Area */,
 				151CC3DB1F9C71C7001825B7 /* AppDelegate.swift */,
 				151CC3DF1F9C71C7001825B7 /* Main.storyboard */,
 				151CC3E21F9C71C7001825B7 /* Assets.xcassets */,
@@ -157,6 +168,7 @@
 			files = (
 				151A36411F9DD38200642B3D /* AutoLayoutLandscapeViewController.swift in Sources */,
 				151CC3DE1F9C71C7001825B7 /* ViewController.swift in Sources */,
+				150311711FA325F9008ADC1F /* SafeAreaViewController.swift in Sources */,
 				151CC3DC1F9C71C7001825B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6BHUUU4ZP;
 				INFOPLIST_FILE = AutoLayout_Practice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arumcns.AutoLayout-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6BHUUU4ZP;
 				INFOPLIST_FILE = AutoLayout_Practice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arumcns.AutoLayout-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
